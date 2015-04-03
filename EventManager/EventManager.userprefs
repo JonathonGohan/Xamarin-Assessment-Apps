@@ -1,0 +1,15 @@
+﻿<Properties StartupItem="EventManager\EventManager.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.Nexus_5_API_21_x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="EventManager\MainActivity.cs">
+    <Files>
+      <File FileName="EventManager\MainActivity.cs" Line="18" Column="22" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="d:\Android\Assessment\EventManager\EventLibrary\EventsDataSource.cs" line="43" offsetX="697" offsetY="672" expression="values" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+  <MonoDevelop.Ide.ItemProperties.EventManager MonoForAntroid.PreferredDevice="Nexus 4" />
+</Properties>

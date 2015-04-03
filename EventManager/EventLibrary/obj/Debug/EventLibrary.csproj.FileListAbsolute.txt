@@ -1,0 +1,11 @@
+D:\Android\Assessment\EventManager\EventLibrary\bin\Debug\EventLibrary.dll
+D:\Android\Assessment\EventManager\EventLibrary\bin\Debug\EventLibrary.pdb
+D:\Android\Assessment\EventManager\EventLibrary\bin\Debug\EventLibrary.dll.mdb
+D:\Android\Assessment\EventManager\EventLibrary\bin\Debug\EventLibrary.EventLibrary.apk
+D:\Android\Assessment\EventManager\EventLibrary\bin\Debug\EventLibrary.EventLibrary-Signed.apk
+D:\Android\Assessment\EventManager\EventLibrary\obj\Debug\EventLibrary.dll
+D:\Android\Assessment\EventManager\EventLibrary\obj\Debug\EventLibrary.pdb
+D:\Android\Assessment\EventManager\EventLibrary\obj\Debug\android\bin\EventLibrary.EventLibrary.apk
+D:\Android\Assessment\EventManager\EventLibrary\obj\Debug\res\values\strings.xml
+D:\Android\Assessment\EventManager\EventLibrary\obj\Debug\R.cs.flag
+D:\Android\Assessment\EventManager\EventLibrary\obj\Debug\uploadflags.txt

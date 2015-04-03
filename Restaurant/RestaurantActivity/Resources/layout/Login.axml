@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:measureWithLargestChild="false"
+    android:gravity="center"
+    android:background="#ffffffff">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:paddingBottom="20dp"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <TextView
+                android:text="EmailId"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView3"
+                android:textColor="#ff000000" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:paddingBottom="20dp">
+            <EditText
+                android:layout_column="0"
+                android:id="@+id/EmaiEditText"
+                android:width="250dp"
+                android:textColor="#ff000000"
+                android:textColorHint="#ff8d8b8b"
+                android:hint="Enter the Email Id"
+                android:background="@drawable/border"
+                android:inputType="textEmailAddress" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:paddingBottom="20dp"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <TextView
+                android:text="Password"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView4"
+                android:textColor="#ff000000" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:paddingBottom="20dp">
+            <EditText
+                android:inputType="textPassword"
+                android:layout_column="0"
+                android:id="@+id/PasswordEditText"
+                android:textColor="#ff000000"
+                android:textColorHint="#ff8d8b8b"
+                android:hint="Enter your password"
+                android:background="@drawable/border" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:paddingBottom="20dp">
+            <Button
+                android:text="Login"
+                android:layout_column="0"
+                android:id="@+id/LoginButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#ff00ffff"
+                android:background="@drawable/buttonBackground" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:paddingBottom="20dp"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/NewUserLinkText"
+                android:layout_width="wrap_content"
+                android:layout_gravity="center"
+                android:textStyle="normal"
+                android:textColor="@color/RegisterLink"
+                android:hint="New User" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="TripExpenseManager.TripExpenseManager">
+  <uses-sdk android:minSdkVersion="14" />
+  <application android:label="Trip Expense Manager" android:name="mono.android.app.Application">
+    <activity android:icon="@drawable/icon" android:label="Trips" android:name="tripexpensemanager.MainActivity" />
+    <activity android:label="TripDetails" android:name="tripexpensemanager.TripDetails" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="TripExpenseManager.TripExpenseManager.mono.MonoRuntimeProvider.__mono_init__" />
+    <activity android:icon="@drawable/icon" android:label="Trips" android:name="tripexpensemanager.tripexpensemanager.TrialSplashScreen" android:theme="@style/Mono.Android.Theme.Splash" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>

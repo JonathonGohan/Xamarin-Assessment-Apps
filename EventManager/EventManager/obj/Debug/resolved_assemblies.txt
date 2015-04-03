@@ -1,0 +1,3 @@
+D:\Android\Assessment\EventManager\EventManager\bin\Debug\EventManager.dll
+D:\Android\Assessment\EventManager\EventLibrary\bin\Debug\EventLibrary.dll
+D:\Android\Assessment\EventManager\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll

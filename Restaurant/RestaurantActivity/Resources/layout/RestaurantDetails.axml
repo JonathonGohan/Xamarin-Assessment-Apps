@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffe8e8e8"
+    android:padding="10dp">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1"
+        android:background="#ffe8e8e8"
+        android:alpha="1">
+        <TableRow
+            android:id="@+id/tableRow2">
+            <ImageView
+                android:layout_span="3"
+                android:src="@android:drawable/ic_menu_gallery"
+                android:layout_column="0"
+                android:id="@+id/imageView2" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:text="Medium Text"
+                android:layout_span="3"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/RestaurantNameTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000"
+                android:layout_marginBottom="10dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:text="Address"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView49"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+            <TextView
+                android:text="  :  "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/textView49"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+            <TextView
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="2"
+                android:id="@+id/AddressTextView"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000"
+                android:maxWidth="200dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:text="  :  "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/textView49"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+            <TextView
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="2"
+                android:id="@+id/LocationTextView"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ff000000" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:text="Phone"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView51"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+            <TextView
+                android:text="  :  "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/textView49"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+            <TextView
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="2"
+                android:id="@+id/PhoneTextView"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:text="Landmark"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView53"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+            <TextView
+                android:text="  :  "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/textView49"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+            <TextView
+                android:text="Medium Text"
+                android:layout_column="2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/LandmarkTextView"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ff000000"
+                android:maxWidth="200dp" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:text="Food Type"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView55"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+            <TextView
+                android:text="  :  "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/textView49"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+            <TextView
+                android:text="Medium Text"
+                android:layout_column="2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/FoodTypeTextView"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <TextView
+                android:text="A/C available"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView57"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+            <TextView
+                android:text="  :  "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/textView49"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+            <TextView
+                android:text="Medium Text"
+                android:layout_column="2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/ACTextView"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_marginBottom="10dp">
+            <TextView
+                android:text="Time Served"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView60"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+            <TextView
+                android:text="  :  "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/textView49"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+            <TextView
+                android:text="Medium Text"
+                android:layout_column="2"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:id="@+id/TimeServedTextView"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="#ff000000" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

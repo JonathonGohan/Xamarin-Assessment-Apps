@@ -1,0 +1,6 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/contextmenu_myProfile" android:title="My Profile" android:icon="@drawable/user1" android:showAsAction="always"  android:orderInCategory="100"/>
+    <!---<item android:id="@+id/contextmenu_myProfile2" android:title="My Profile" android:icon="@drawable/user2" android:showAsAction="always"  android:orderInCategory="100"/>-->
+</menu>

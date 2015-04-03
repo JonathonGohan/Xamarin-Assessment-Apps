@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:padding="20dp">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <TextView
+                android:text="Food Items"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView10" />
+            <TextView
+                android:text=" : "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/textView11" />
+            <TextView
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="2"
+                android:id="@+id/AmtDetailsItemsCostTextView" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="Booking Advance"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView18" />
+            <TextView
+                android:text=" : "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/textView13" />
+            <TextView
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="2"
+                android:id="@+id/AmtDetailsAdvanceTextView" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="VAT 5 %"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView17" />
+            <TextView
+                android:text=" : "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/textView12" />
+            <TextView
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="2"
+                android:id="@+id/AmtDetailsVatTextView" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/foodItemBorderBack"
+            android:padding="10dp">
+            <TextView
+                android:text="Total Cost"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView22"
+                android:textColor="#ff000000" />
+            <TextView
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="2"
+                android:id="@+id/AmtDetailsTotalCostTextView"
+                android:textColor="#ffff0000" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

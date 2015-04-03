@@ -1,0 +1,13 @@
+D:\Android\Assessment\Restaurant\RestaurantLibrary\bin\Release\RestaurantLibrary.dll
+D:\Android\Assessment\Restaurant\RestaurantLibrary\bin\Release\RestaurantLibrary.pdb
+D:\Android\Assessment\Restaurant\RestaurantLibrary\bin\Release\RestaurantLibrary.RestaurantLibrary.apk
+D:\Android\Assessment\Restaurant\RestaurantLibrary\bin\Release\RestaurantLibrary.RestaurantLibrary-Signed.apk
+D:\Android\Assessment\Restaurant\RestaurantLibrary\bin\Release\Parse.Android.dll
+D:\Android\Assessment\Restaurant\RestaurantLibrary\bin\Release\Parse.Android.xml
+D:\Android\Assessment\Restaurant\RestaurantLibrary\obj\Release\RestaurantLibrary.csprojResolveAssemblyReference.cache
+D:\Android\Assessment\Restaurant\RestaurantLibrary\obj\Release\RestaurantLibrary.dll
+D:\Android\Assessment\Restaurant\RestaurantLibrary\obj\Release\RestaurantLibrary.pdb
+D:\Android\Assessment\Restaurant\RestaurantLibrary\obj\Release\android\bin\RestaurantLibrary.RestaurantLibrary.apk
+D:\Android\Assessment\Restaurant\RestaurantLibrary\obj\Release\res\values\strings.xml
+D:\Android\Assessment\Restaurant\RestaurantLibrary\obj\Release\R.cs.flag
+D:\Android\Assessment\Restaurant\RestaurantLibrary\obj\Release\uploadflags.txt

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantActivity", "RestaurantActivity\RestaurantActivity.csproj", "{ED423FCD-65FC-4C83-AF93-FFCB56C0ECD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantLibrary", "RestaurantLibrary\RestaurantLibrary.csproj", "{4E3D1342-756A-4DFE-941E-21D66088D7E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4E3D1342-756A-4DFE-941E-21D66088D7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3D1342-756A-4DFE-941E-21D66088D7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3D1342-756A-4DFE-941E-21D66088D7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3D1342-756A-4DFE-941E-21D66088D7E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED423FCD-65FC-4C83-AF93-FFCB56C0ECD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED423FCD-65FC-4C83-AF93-FFCB56C0ECD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED423FCD-65FC-4C83-AF93-FFCB56C0ECD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED423FCD-65FC-4C83-AF93-FFCB56C0ECD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = RestaurantActivity\RestaurantActivity.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:minWidth="25px"
+        android:minHeight="25px">
+        <TableLayout
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tableLayout1"
+            android:layout_gravity="center"
+            android:padding="10dp"
+            android:gravity="center">
+            <TableRow
+                android:id="@+id/EventNameTableRow"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:text="Event Name"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:layout_marginRight="10dp" />
+                <EditText
+                    android:layout_column="2"
+                    android:id="@+id/EventNameText"
+                    android:minWidth="200dp" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/LocationTableRow"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:text="Location"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/textView17" />
+                <Spinner
+                    android:layout_column="2"
+                    android:id="@+id/LocationSpinner" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/DateTableRow"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:text="Date"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/textView18" />
+                <ImageButton
+                    android:src="@drawable/date"
+                    android:layout_width="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/background_light"
+                    android:id="@+id/DateImageButton" />
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:gravity="center"
+                    android:id="@+id/DateTextView" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/TimeTableRow"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:text="Time"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/textView28" />
+                <ImageButton
+                    android:src="@drawable/time"
+                    android:layout_column="1"
+                    android:background="@android:color/background_light"
+                    android:layout_width="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/TimeImageButton" />
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:gravity="center"
+                    android:id="@+id/TimeTextView" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/HallTableRow"
+                android:layout_marginBottom="10dp">
+                <TextView
+                    android:text="Hall"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_column="0"
+                    android:id="@+id/textView21" />
+                <Spinner
+                    android:layout_column="2"
+                    android:id="@+id/HallSpinner" />
+            </TableRow>
+            <TableRow
+                android:id="@+id/SaveTableRow">
+                <Button
+                    android:text="Proceed"
+                    android:layout_column="2"
+                    android:id="@+id/SaveEventButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/drawerListView"
+        android:layout_height="match_parent"
+        android:layout_width="240dp"
+        android:layout_gravity="start"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="0dp"
+        android:background="#000000" />
+</android.support.v4.widget.DrawerLayout>

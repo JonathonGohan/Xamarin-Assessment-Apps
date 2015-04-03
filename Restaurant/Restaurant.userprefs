@@ -1,0 +1,13 @@
+﻿<Properties StartupItem="RestaurantActivity\RestaurantActivity.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.Nexus" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RestaurantActivity\UserDetailsActivity.cs">
+    <Files>
+      <File FileName="RestaurantActivity\UserDetailsActivity.cs" Line="70" Column="27" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RestaurantActivity AndroidDeviceId-Debug="EUBA4PYP4PQKQGSC" MonoForAntroid.PreferredDevice="Nexus 4" MonoForAntroid.PreferredTheme="Theme.DeviceDefault.Light" />
+</Properties>

@@ -1,0 +1,5 @@
+﻿<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item android:id="@+id/contextmenu_bookingdetails" android:title="Booking Details" android:icon="@drawable/checklist_icon" android:showAsAction="always"  android:orderInCategory="100"/>
+</menu>

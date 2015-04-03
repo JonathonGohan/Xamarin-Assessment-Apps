@@ -1,0 +1,10 @@
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\bin\Release\RssReaderLibrary.dll
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\bin\Release\RssReaderLibrary.pdb
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\bin\Release\RssReaderLibrary.RssReaderLibrary.apk
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\bin\Release\RssReaderLibrary.RssReaderLibrary-Signed.apk
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\obj\Release\RssReaderLibrary.dll
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\obj\Release\RssReaderLibrary.pdb
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\obj\Release\android\bin\RssReaderLibrary.RssReaderLibrary.apk
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\obj\Release\res\values\strings.xml
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\obj\Release\R.cs.flag
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\obj\Release\uploadflags.txt

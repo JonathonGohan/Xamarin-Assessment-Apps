@@ -1,0 +1,11 @@
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\bin\Debug\RssReaderLibrary.dll
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\bin\Debug\RssReaderLibrary.pdb
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\bin\Debug\RssReaderLibrary.dll.mdb
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\bin\Debug\RssReaderLibrary.RssReaderLibrary.apk
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\bin\Debug\RssReaderLibrary.RssReaderLibrary-Signed.apk
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\obj\Debug\RssReaderLibrary.dll
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\obj\Debug\RssReaderLibrary.pdb
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\obj\Debug\android\bin\RssReaderLibrary.RssReaderLibrary.apk
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\obj\Debug\res\values\strings.xml
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\obj\Debug\R.cs.flag
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\obj\Debug\uploadflags.txt

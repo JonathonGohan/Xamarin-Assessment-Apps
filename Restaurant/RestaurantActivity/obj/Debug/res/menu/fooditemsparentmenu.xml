@@ -1,0 +1,1 @@
+<menu tools:context=".MainActivity" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"><item android:id="@+id/contextmenu_shoppingcart" android:title="Order Details" android:icon="@drawable/cart32" android:showAsAction="always" android:orderInCategory="100" /></menu>

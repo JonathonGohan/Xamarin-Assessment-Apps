@@ -1,0 +1,2 @@
+D:\Android\Assessment\TripExpenseManagerSolution\TripExpenseManager\bin\Debug\TripExpenseManager.dll
+D:\Android\Assessment\TripExpenseManagerSolution\TripExpenseLibrary\bin\Debug\TripExpenseLibrary.dll

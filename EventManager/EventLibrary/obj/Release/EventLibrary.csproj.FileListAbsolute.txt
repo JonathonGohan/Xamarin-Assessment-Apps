@@ -1,0 +1,10 @@
+D:\Android\Assessment\EventManager\EventLibrary\bin\Release\EventLibrary.dll
+D:\Android\Assessment\EventManager\EventLibrary\bin\Release\EventLibrary.pdb
+D:\Android\Assessment\EventManager\EventLibrary\bin\Release\EventLibrary.EventLibrary.apk
+D:\Android\Assessment\EventManager\EventLibrary\bin\Release\EventLibrary.EventLibrary-Signed.apk
+D:\Android\Assessment\EventManager\EventLibrary\obj\Release\EventLibrary.dll
+D:\Android\Assessment\EventManager\EventLibrary\obj\Release\EventLibrary.pdb
+D:\Android\Assessment\EventManager\EventLibrary\obj\Release\android\bin\EventLibrary.EventLibrary.apk
+D:\Android\Assessment\EventManager\EventLibrary\obj\Release\res\values\strings.xml
+D:\Android\Assessment\EventManager\EventLibrary\obj\Release\R.cs.flag
+D:\Android\Assessment\EventManager\EventLibrary\obj\Release\uploadflags.txt

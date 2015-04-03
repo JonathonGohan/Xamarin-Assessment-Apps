@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDo", "ToDo\ToDo.csproj", "{75003E68-34F4-4621-AE29-6EDBAF423876}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoLibrary", "ToDoLibrary\ToDoLibrary.csproj", "{0B3A16A5-A22B-4F16-89FA-BB79D3D1373D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B3A16A5-A22B-4F16-89FA-BB79D3D1373D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3A16A5-A22B-4F16-89FA-BB79D3D1373D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3A16A5-A22B-4F16-89FA-BB79D3D1373D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3A16A5-A22B-4F16-89FA-BB79D3D1373D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75003E68-34F4-4621-AE29-6EDBAF423876}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75003E68-34F4-4621-AE29-6EDBAF423876}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75003E68-34F4-4621-AE29-6EDBAF423876}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75003E68-34F4-4621-AE29-6EDBAF423876}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ToDo\ToDo.csproj
+	EndGlobalSection
+EndGlobal

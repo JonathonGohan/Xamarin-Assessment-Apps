@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:padding="5dp">
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout1"
+        android:layout_gravity="center">
+        <TableRow
+            android:id="@+id/tableRow1">
+            <TextView
+                android:text="Trip Name"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView12"
+                android:textColor="#ff000000" />
+            <EditText
+                android:layout_column="1"
+                android:id="@+id/TDTripNameTextView"
+                android:minWidth="150dp"
+                android:hint="Enter Trip name"
+                android:maxWidth="150dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ff000000" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow1">
+            <TextView
+                android:text="Trip Description"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView41"
+                android:textColor="#ff000000" />
+            <EditText
+                android:inputType="textMultiLine"
+                android:layout_column="1"
+                android:id="@+id/TDTripDescTextView"
+                android:hint="Enter Trip detials"
+                android:minWidth="150dp"
+                android:maxWidth="150dp"
+                android:minHeight="100dp"
+                android:maxHeight="100dp"
+                android:layout_marginLeft="10dp"
+                android:textColor="#ff000000" />
+        </TableRow>
+    </TableLayout>
+    <TableLayout
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableLayout2"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+        <TableRow
+            android:id="@+id/tableRow2">
+            <TextView
+                android:text="From"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:id="@+id/textView53"
+                android:textColor="#ff000000" />
+            <EditText
+                android:layout_column="1"
+                android:id="@+id/TDFromTextView"
+                android:layout_width="100dp"
+                android:maxWidth="100dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#ff000000" />
+            <TextView
+                android:text="To"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="2"
+                android:id="@+id/textView54"
+                android:layout_marginLeft="5dp"
+                android:textColor="#ff000000" />
+            <EditText
+                android:layout_column="3"
+                android:id="@+id/TDToTextView"
+                android:layout_width="100dp"
+                android:maxWidth="100dp"
+                android:layout_marginLeft="5dp"
+                android:textColor="#ff000000" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:src="@drawable/date32"
+                android:layout_column="0"
+                android:id="@+id/TDFromDateImageControl" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="1"
+                android:id="@+id/TDFromDateTextView"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:textColor="#ff000000" />
+            <ImageView
+                android:src="@drawable/date32"
+                android:layout_column="2"
+                android:id="@+id/TDToDateImageControl"
+                android:layout_marginLeft="5dp" />
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="3"
+                android:id="@+id/TDToDateTextView"
+                android:layout_marginTop="10dp"
+                android:layout_height="match_parent"
+                android:layout_width="wrap_content"
+                android:textColor="#ff000000" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:text="Allocated Amount"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_column="0"
+                android:layout_span="2"
+                android:id="@+id/textView59"
+                android:textColor="#ff000000" />
+            <EditText
+                android:layout_column="2"
+                android:layout_span="2"
+                android:id="@+id/TDAllocatedAmtTextView"
+                android:maxWidth="100dp"
+                android:layout_width="100dp"
+                android:textColor="#ff000000"
+                android:inputType="numberDecimal" />
+        </TableRow>
+        <TableRow
+            android:id="@+id/tableRow3">
+            <Button
+                android:text="Save"
+                android:layout_column="0"
+                android:layout_span="4"
+                android:id="@+id/SaveButton"
+                android:layout_marginTop="10dp" />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProjectGuid>{ED423FCD-65FC-4C83-AF93-FFCB56C0ECD0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>RestaurantActivity</RootNamespace>
+    <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
+    <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
+    <AndroidUseLatestPlatformSdk>False</AndroidUseLatestPlatformSdk>
+    <AndroidApplication>True</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
+    <AndroidResgenClass>Resource</AndroidResgenClass>
+    <AssemblyName>RestaurantActivity</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+    <AndroidUseSharedRuntime>false</AndroidUseSharedRuntime>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Mono.Android" />
+    <Reference Include="Parse.Android">
+      <HintPath>..\Components\parse-1.3.1\lib\android\Parse.Android.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Resources\Resource.designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="LoginActivity.cs" />
+    <Compile Include="HomeActivity.cs" />
+    <Compile Include="RestaurantNamesListAdapter.cs" />
+    <Compile Include="BookingDetailsActivity.cs" />
+    <Compile Include="RegisterUser.cs" />
+    <Compile Include="FoodItemsActivity.cs" />
+    <Compile Include="FoodItemsListAdapter.cs" />
+    <Compile Include="CartListAdapter.cs" />
+    <Compile Include="UserDetailsActivity.cs" />
+    <Compile Include="BookingDetailsSpinnerAdapter.cs" />
+    <Compile Include="BookedOrederDetailsListAdapter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+    <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\values\Strings.xml" />
+    <AndroidResource Include="Resources\drawable\Icon.png" />
+    <AndroidResource Include="Resources\layout\Login.axml" />
+    <AndroidResource Include="Resources\drawable\ic_drawer_toggle.png" />
+    <AndroidResource Include="Resources\drawable\border.xml" />
+    <AndroidResource Include="Resources\layout\Home.axml" />
+    <AndroidResource Include="Resources\anim\leftin.xml" />
+    <AndroidResource Include="Resources\anim\leftout.xml" />
+    <AndroidResource Include="Resources\anim\rightin.xml" />
+    <AndroidResource Include="Resources\anim\rightout.xml" />
+    <AndroidResource Include="Resources\layout\RestaurantDetails.axml" />
+    <AndroidResource Include="Resources\layout\RestaurantNameListViewItem.axml" />
+    <AndroidResource Include="Resources\drawable\CloseGrey.png" />
+    <AndroidResource Include="Resources\drawable\next.png" />
+    <AndroidResource Include="Resources\drawable\checklist_icon.png" />
+    <AndroidResource Include="Resources\layout\BookingDetails.axml" />
+    <AndroidResource Include="Resources\menu\bookingDetailsMenu.xml" />
+    <AndroidResource Include="Resources\menu\userDetailsMenu.xml" />
+    <AndroidResource Include="Resources\layout\FoodItemsParent.axml" />
+    <AndroidResource Include="Resources\drawable\date32.png" />
+    <AndroidResource Include="Resources\drawable\time32.png" />
+    <AndroidResource Include="Resources\layout\FoodItemsListViewItem.axml" />
+    <AndroidResource Include="Resources\drawable\no_icon.png" />
+    <AndroidResource Include="Resources\drawable\foodItemBorder.xml" />
+    <AndroidResource Include="Resources\drawable\foodItemBorderBack.xml" />
+    <AndroidResource Include="Resources\layout\Register.axml" />
+    <AndroidResource Include="Resources\color\RegisterLink.xml" />
+    <AndroidResource Include="Resources\drawable\cart32.png" />
+    <AndroidResource Include="Resources\menu\foodItemsParentMenu.xml" />
+    <AndroidResource Include="Resources\layout\CartDetails.axml" />
+    <AndroidResource Include="Resources\layout\CartListItem.axml" />
+    <AndroidResource Include="Resources\drawable\user1.png" />
+    <AndroidResource Include="Resources\drawable\user2.png" />
+    <AndroidResource Include="Resources\layout\UserDetails.axml" />
+    <AndroidResource Include="Resources\layout\BookingDetailsSpinnerItem.axml" />
+    <AndroidResource Include="Resources\layout\BookedOrderetails.axml" />
+    <AndroidResource Include="Resources\layout\BookedOrderDetailsListItem.axml" />
+    <AndroidResource Include="Resources\layout\AmountDetails.axml" />
+    <AndroidResource Include="Resources\drawable\buttonBackground.xml" />
+    <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\anim\pushdownin.xml" />
+    <AndroidResource Include="Resources\anim\pushdownout.xml" />
+    <AndroidResource Include="Resources\anim\pushupin.xml" />
+    <AndroidResource Include="Resources\anim\pushupout.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\RestaurantLibrary\RestaurantLibrary.csproj">
+      <Project>{4E3D1342-756A-4DFE-941E-21D66088D7E0}</Project>
+      <Name>RestaurantLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\anim\" />
+    <Folder Include="Resources\menu\" />
+    <Folder Include="Resources\color\" />
+  </ItemGroup>
+</Project>

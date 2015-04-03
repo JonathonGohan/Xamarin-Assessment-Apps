@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:background="#ff000000"
+    android:layout_height="fill_parent">
+    <TextView
+        android:id="@+id/ToDoListHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DataHeader"
+        android:layout_margin="2dp"
+        android:textStyle="bold"
+        android:textColor="#ffffffff"
+        android:textSize="20dp"
+        android:paddingLeft="30dp"
+        android:layout_weight="0.80"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_gravity="center" />
+    <ImageView
+        android:src="@drawable/tick26black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/IndicatorImage"
+        android:layout_gravity="center"
+        android:padding="2dp"
+        android:background="#ff9a9a9a"
+        android:layout_marginRight="25dp" />
+<!--<ImageButton
+        android:src="@drawable/delete32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/HeaderDeleteButton"
+        android:layout_gravity="right"
+        android:background="#ff000000"
+        android:padding="5dp" />-->
+</LinearLayout>

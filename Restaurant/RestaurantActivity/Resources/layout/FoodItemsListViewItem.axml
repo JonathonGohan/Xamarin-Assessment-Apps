@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:gravity="center"
+    android:padding="10dp">
+    <ImageView
+        android:src="@drawable/no_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FoodItemImageView"
+        android:layout_weight=".1"
+        android:visibility="gone" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight=".8"
+        android:background="@drawable/foodItemBorderBack"
+        android:layout_marginLeft="10dp">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/foodItemBorder"
+            android:layout_weight="1">
+            <TextView
+                android:text="Large Text"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/FoodItemNameTextView"
+                android:layout_marginBottom="5dp"
+                android:textColor="#ff00cdff" />
+            <TextView
+                android:text="Rs. 10.00"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/FoodItemCostTextView"
+                android:textColor="#ffd8daff"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/FoodItemCountTextView"
+        android:layout_weight=".2"
+        android:textColor="#ffe2e2e2"
+        android:layout_marginLeft="10dp" />
+</LinearLayout>

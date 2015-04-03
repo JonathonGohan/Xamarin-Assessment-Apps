@@ -1,0 +1,3 @@
+D:\Android\Assessment\RssFeedReaderSolution\RssReader\bin\Debug\RssReader.dll
+D:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\bin\Debug\RssReaderLibrary.dll
+D:\Android\Assessment\RssFeedReaderSolution\packages\Xamarin.Android.Support.v4.21.0.3.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll

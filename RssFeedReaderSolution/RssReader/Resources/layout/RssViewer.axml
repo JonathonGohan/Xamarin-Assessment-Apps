@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawerLayout">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:padding="10dp">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:focusableInTouchMode="true"
+            android:focusable="true">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/RssFeedUrlTextView"
+                android:layout_weight="1"
+                android:hint="Rss Feed URL" />
+            <ImageButton
+                android:src="@drawable/add32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/AddRssFeedButton"
+                android:background="#ff000000" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:focusableInTouchMode="true"
+            android:focusable="true">
+            <TextView
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:id="@+id/RssSelectedFeedName"
+                android:gravity="center"
+                android:alpha=".6"
+                android:background="#443f3f"
+                android:textStyle="bold"
+                android:textSize="20dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:minWidth="25px"
+            android:minHeight="25px">
+            <ListView
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/RssFeedDetailsListView" />
+        </LinearLayout>
+    </LinearLayout>
+    <ListView
+        android:id="@+id/drawerListView"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:padding="8dp"
+        android:background="#ff373737" />
+</android.support.v4.widget.DrawerLayout>

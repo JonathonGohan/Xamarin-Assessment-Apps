@@ -1,0 +1,11 @@
+D:\Android\Assessment\TripExpenseManagerSolution\TripExpenseLibrary\bin\Debug\TripExpenseLibrary.dll
+D:\Android\Assessment\TripExpenseManagerSolution\TripExpenseLibrary\bin\Debug\TripExpenseLibrary.pdb
+D:\Android\Assessment\TripExpenseManagerSolution\TripExpenseLibrary\bin\Debug\TripExpenseLibrary.dll.mdb
+D:\Android\Assessment\TripExpenseManagerSolution\TripExpenseLibrary\bin\Debug\TripExpenseLibrary.TripExpenseLibrary.apk
+D:\Android\Assessment\TripExpenseManagerSolution\TripExpenseLibrary\bin\Debug\TripExpenseLibrary.TripExpenseLibrary-Signed.apk
+D:\Android\Assessment\TripExpenseManagerSolution\TripExpenseLibrary\obj\Debug\TripExpenseLibrary.dll
+D:\Android\Assessment\TripExpenseManagerSolution\TripExpenseLibrary\obj\Debug\TripExpenseLibrary.pdb
+D:\Android\Assessment\TripExpenseManagerSolution\TripExpenseLibrary\obj\Debug\android\bin\TripExpenseLibrary.TripExpenseLibrary.apk
+D:\Android\Assessment\TripExpenseManagerSolution\TripExpenseLibrary\obj\Debug\res\values\strings.xml
+D:\Android\Assessment\TripExpenseManagerSolution\TripExpenseLibrary\obj\Debug\R.cs.flag
+D:\Android\Assessment\TripExpenseManagerSolution\TripExpenseLibrary\obj\Debug\uploadflags.txt
