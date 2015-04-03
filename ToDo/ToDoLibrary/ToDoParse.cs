@@ -85,9 +85,7 @@ namespace ToDoLibrary
 			if ( isOnline()  == true) 
 			{
 				ToDoParse.InitParse ();
-				ParseQuery<ParseObject> query = ParseObject.GetQuery ("User");
-				query.WhereEqualTo ("username", username);
-				query.WhereEqualTo ("password", password);
+				ParseQuery<ParseObject> query = ParseObject.GetQuery ("User").WhereEqualTo ("username", username).WhereEqualTo ("password", password);
 				IEnumerable<ParseObject> listParseObjs = await query.FindAsync ();
 				int count = 0;
 				foreach (ParseObject obj in listParseObjs) {

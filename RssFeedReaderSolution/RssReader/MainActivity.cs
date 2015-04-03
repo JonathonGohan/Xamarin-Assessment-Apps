@@ -93,7 +93,8 @@ namespace RssReader
 
 			rssDetailsListView = tabRssView.FindViewById<ListView> (Resource.Id.RssFeedDetailsListView);
 			rssListAdapter = new RssListAdapter (this, rssDrawerListAdapter._rssManager);
-			rssDetailsListView.Adapter = rssListAdapter;
+			//if ( rssDrawerListAdapter._rssManager.rssCount > 0 )
+				
 			rssDetailsListView.ItemClick += (object sender, AdapterView.ItemClickEventArgs e) => 
 			{
 				if ( checkInternetConnection() )
@@ -144,6 +145,7 @@ namespace RssReader
 				selectedRssFeedNameTextView.Text = rssDrawerListAdapter.getFeedName(e.Position);
 				drawerLayout.CloseDrawer(rssDrawerListView);
 				rssListAdapter.populateRssFeedDetails(e.Position);
+				rssDetailsListView.Adapter = rssListAdapter;
 			};
 		}
 

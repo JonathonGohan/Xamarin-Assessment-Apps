@@ -11,34 +11,41 @@ public final class R {
     public static final class anim {
         public static final int leftin=0x7f040000;
         public static final int leftout=0x7f040001;
-        public static final int rightin=0x7f040002;
-        public static final int rightout=0x7f040003;
+        public static final int pushdownin=0x7f040002;
+        public static final int pushdownout=0x7f040003;
+        public static final int pushupin=0x7f040004;
+        public static final int pushupout=0x7f040005;
+        public static final int rightin=0x7f040006;
+        public static final int rightout=0x7f040007;
     }
     public static final class array {
-        public static final int Persons=0x7f060000;
-        public static final int YesNo=0x7f060001;
+        public static final int Persons=0x7f070000;
+        public static final int YesNo=0x7f070001;
     }
     public static final class attr {
     }
     public static final class color {
-        public static final int registerlink=0x7f080000;
+        public static final int bgclicked=0x7f060000;
+        public static final int bgnormal=0x7f060001;
+        public static final int registerlink=0x7f060002;
     }
     public static final class drawable {
         public static final int border=0x7f020000;
-        public static final int cart32=0x7f020001;
-        public static final int checklist_icon=0x7f020002;
-        public static final int closegrey=0x7f020003;
-        public static final int date32=0x7f020004;
-        public static final int fooditemborder=0x7f020005;
-        public static final int fooditemborderback=0x7f020006;
-        public static final int ic_drawer_toggle=0x7f020007;
-        public static final int icon=0x7f020008;
-        public static final int monoandroidsplash=0x7f020009;
-        public static final int next=0x7f02000a;
-        public static final int no_icon=0x7f02000b;
-        public static final int time32=0x7f02000c;
-        public static final int user1=0x7f02000d;
-        public static final int user2=0x7f02000e;
+        public static final int buttonbackground=0x7f020001;
+        public static final int cart32=0x7f020002;
+        public static final int checklist_icon=0x7f020003;
+        public static final int closegrey=0x7f020004;
+        public static final int date32=0x7f020005;
+        public static final int fooditemborder=0x7f020006;
+        public static final int fooditemborderback=0x7f020007;
+        public static final int ic_drawer_toggle=0x7f020008;
+        public static final int icon=0x7f020009;
+        public static final int monoandroidsplash=0x7f02000a;
+        public static final int next=0x7f02000b;
+        public static final int no_icon=0x7f02000c;
+        public static final int time32=0x7f02000d;
+        public static final int user1=0x7f02000e;
+        public static final int user2=0x7f02000f;
     }
     public static final class id {
         public static final int ACSpinner=0x7f0a001f;
@@ -179,6 +186,6 @@ public final class R {
         public static final int newUser=0x7f050003;
     }
     public static final class style {
-        public static final int Mono_Android_Theme_Splash=0x7f070000;
+        public static final int Mono_Android_Theme_Splash=0x7f080000;
     }
 }

@@ -76,7 +76,7 @@ namespace RestaurantLibrary
 					UserDetailsDataSource.isUserValid = true;
 					return 1;
 				}
-				catch 
+				catch ( Exception e )
 				{
 					return 0;
 				}

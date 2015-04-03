@@ -45,3 +45,13 @@ D:\Android\Assessment\EventManager\EventManager\obj\Debug\res\drawable-xxxhdpi\e
 D:\Android\Assessment\EventManager\EventManager\obj\Debug\R.cs.flag
 D:\Android\Assessment\EventManager\EventManager\obj\Debug\uploadflags.txt
 D:\Android\Assessment\EventManager\EventManager\obj\Debug\res\layout\eventconfirmation.xml
+D:\Android\Assessment\EventManager\EventManager\obj\Debug\res\drawable-hdpi\date.png
+D:\Android\Assessment\EventManager\EventManager\obj\Debug\res\drawable-mdpi\date.png
+D:\Android\Assessment\EventManager\EventManager\obj\Debug\res\drawable-xhdpi\date.png
+D:\Android\Assessment\EventManager\EventManager\obj\Debug\res\drawable-xxhdpi\date.png
+D:\Android\Assessment\EventManager\EventManager\obj\Debug\res\drawable-xxxhdpi\date.png
+D:\Android\Assessment\EventManager\EventManager\obj\Debug\res\drawable-hdpi\time.png
+D:\Android\Assessment\EventManager\EventManager\obj\Debug\res\drawable-mdpi\time.png
+D:\Android\Assessment\EventManager\EventManager\obj\Debug\res\drawable-xhdpi\time.png
+D:\Android\Assessment\EventManager\EventManager\obj\Debug\res\drawable-xxhdpi\time.png
+D:\Android\Assessment\EventManager\EventManager\obj\Debug\res\drawable-xxxhdpi\time.png

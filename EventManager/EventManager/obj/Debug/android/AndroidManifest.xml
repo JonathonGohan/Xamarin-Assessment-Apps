@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="EventManager.EventManager">
-  <uses-sdk android:minSdkVersion="15" />
+  <uses-sdk android:minSdkVersion="14" />
   <application android:label="EventManager" android:name="mono.android.app.Application" android:debuggable="true">
     <activity android:icon="@drawable/icon" android:label="EventManager" android:name="eventmanager.MainActivity" />
     <activity android:label="Create Event" android:name="eventmanager.EventActivity" />

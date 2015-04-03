@@ -54,8 +54,7 @@ namespace ToDoLibrary
 		public async Task<IEnumerable<ParseObject>> getDataFromParse (String username)
 		{
 			toDos = new List<ToDoClass> ();
-			ParseQuery<ParseObject> query = ParseObject.GetQuery("ToDoClass");
-			query.WhereEqualTo("Username", username);
+			ParseQuery<ParseObject> query = ParseObject.GetQuery("ToDoClass").WhereEqualTo("Username", username);
 			IEnumerable<ParseObject> listParseObjs = await query.FindAsync ();
 			foreach (ParseObject obj in listParseObjs) 
 			{

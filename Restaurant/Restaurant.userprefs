@@ -1,8 +1,13 @@
 ﻿<Properties StartupItem="RestaurantActivity\RestaurantActivity.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.Nexus" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RestaurantActivity\UserDetailsActivity.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RestaurantLibrary\RestaurantDataSource.cs">
     <Files>
-      <File FileName="RestaurantActivity\UserDetailsActivity.cs" Line="70" Column="27" />
+      <File FileName="RestaurantActivity\UserDetailsActivity.cs" Line="62" Column="3" />
+      <File FileName="RestaurantActivity\LoginActivity.cs" Line="75" Column="7" />
+      <File FileName="RestaurantLibrary\RestaurantDataSource.cs" Line="8" Column="3" />
+      <File FileName="RestaurantLibrary\RestaurantManager.cs" Line="1" Column="1" />
+      <File FileName="RestaurantLibrary\ParseHelper.cs" Line="62" Column="1" />
+      <File FileName="RestaurantLibrary\UserDetailsManager.cs" Line="60" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

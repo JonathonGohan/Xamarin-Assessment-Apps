@@ -53,7 +53,7 @@ namespace ToDo
 			}
 			else
 			{
-				Toast.MakeText (this, "Enter bothe Username and Password", ToastLength.Short).Show ();
+				Toast.MakeText (this, "Enter both Username and Password", ToastLength.Short).Show ();
 			}
 		}
 
@@ -69,7 +69,7 @@ namespace ToDo
 			}
 			else
 			{
-				Toast.MakeText (this, "Enter bothe Username and Password", ToastLength.Short).Show();
+				Toast.MakeText (this, "Enter both Username and Password", ToastLength.Short).Show();
 			}
 		}
 

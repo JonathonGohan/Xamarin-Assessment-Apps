@@ -1,14 +1,17 @@
 ﻿<Properties StartupItem="RssReader\RssReader.csproj">
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" PreferredExecutionTarget="Android.Nexus" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="RssReaderLibrary\RssDataSource.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Nexus" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="RssReaderLibrary\RssManager.cs">
     <Files>
-      <File FileName="RssReaderLibrary\RssSqlLiteHelperClass.cs" Line="1" Column="1" />
-      <File FileName="RssReaderLibrary\RssManager.cs" Line="1" Column="1" />
-      <File FileName="RssReaderLibrary\RssDataSource.cs" Line="13" Column="3" />
+      <File FileName="RssReader\MainActivity.cs" Line="131" Column="4" />
+      <File FileName="d:\Android\Assessment\RssFeedReaderSolution\RssReader\RssFeedDrawerListAdapter.cs" Line="50" Column="5" />
+      <File FileName="RssReaderLibrary\RssManager.cs" Line="58" Column="4" />
+      <File FileName="RssReader\RssListAdapter.cs" Line="28" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="d:\Android\Assessment\RssFeedReaderSolution\RssReaderLibrary\RssManager.cs" line="60" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.RssReader MonoForAntroid.PreferredDevice="Nexus 4" />

@@ -32,11 +32,6 @@ namespace RssReader
 			progressDialog.SetProgressStyle (ProgressDialogStyle.Spinner);
 		}
 
-		public override Java.Lang.Object GetItem (int position)
-		{
-			return base.GetItem (position);
-		}
-
 		public override long GetItemId (int position)
 		{
 			return position;

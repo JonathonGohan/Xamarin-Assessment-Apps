@@ -75,15 +75,16 @@ namespace RestaurantActivity
 					{
 						_progress.Show ();
 						int count = await _userDetailsManager.getUserDetails (_email, _password);
-						if( count != -10 )
-						{
-								Toast.MakeText (this, "Login Successfull." , ToastLength.Short).Show ();
-								Intent act2 = new Intent (this, typeof(HomeActivity));
-								StartActivity (act2);
-								OverridePendingTransition (Resource.Animation.leftin, Resource.Animation.leftout);
-						}
-						else if( count == 0)
+
+						if( count == 0)
 							Toast.MakeText (this, "Invalid User." , ToastLength.Short).Show ();
+						else if( count != -10 )
+						{
+							Toast.MakeText (this, "Login Successfull." , ToastLength.Short).Show ();
+							Intent act2 = new Intent (this, typeof(HomeActivity));
+							StartActivity (act2);
+							OverridePendingTransition (Resource.Animation.leftin, Resource.Animation.leftout);
+						}
 						else
 							Toast.MakeText (this, "No Internet connection" , ToastLength.Short).Show ();
 					}
@@ -94,7 +95,7 @@ namespace RestaurantActivity
 				}
 				else 
 				{
-					Toast.MakeText (this, "Enter both Username and Password", ToastLength.Short).Show ();
+					Toast.MakeText (this, "Enter both E and Password", ToastLength.Short).Show ();
 				}
 			}
 			catch(Exception e) 
